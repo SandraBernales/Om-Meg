@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litt Om Meg</title>
+    <script src="script.js"></script>
+  
+ </head>
+
+    <body>
+
+        
+            <h1>Litt Om Meg</h1>
+            <img src="meg.jpg" alt="bilde av meg" height="180px" width="180">
+            </br>
+                Hei Eg heter Sandra Bernales eg er frå bergen. 34 år ^.^     
+         <h2>Mine hobbyer</h2>
+         <ul>
+            <li>Musik</li>
+            <li>Leser bøker/lydbøker</li>
+            <li>Gameing</li>
+            <li>Fisking</li>
+            <li>Likker å holde på med bil</li>
+            </ul>
+            <button id="background-button" onclick="changebackground()">Trykk her</button>
+            <script>
+               function changebackground(){
+                   var colors = ["red","green","blue","pink","white"];
+                   document.body.style.background = colors[colors.length * Math.random() | 0];
+               }
+
+            </script>
+        
+</body>
+
+</html>
